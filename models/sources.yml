@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: credit_card_pipeline
+    project: data-pipeline-project-491810
+    dataset: credit_card_pipeline
+    tables:
+      - name: creditcard

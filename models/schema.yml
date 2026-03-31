@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: stg_transactions
+    columns:
+      - name: Time
+        tests:
+          - not_null
+      - name: Amount
+        tests:
+          - not_null
+      - name: Class
+        tests:
+          - not_null
+
+  - name: mart_fraud_summary
+    columns:
+      - name: hour_of_day
+        tests:
+          - not_null
