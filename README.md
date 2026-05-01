@@ -19,12 +19,4 @@ Raw CSV → BigQuery → DBT Models → Mart Layer → Airflow Orchestration
 - Fraud transactions have higher average amount than legitimate ones
 - Fraud clusters observed at specific hours of the day
 
-## Project Structure
-fraud_pipeline/
-├── models/
-│   ├── stg_transactions.sql
-│   ├── mart_fraud_summary.sql
-│   └── schema.yml
-├── dags/
-│   └── fraud_pipeline_dag.py
-└── dbt_project.yml
+
